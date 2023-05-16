@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+          "name": "PySpark Sample",
+	        "dockerFile": "Dockerfile",
+	         "context": "..",
+	          "extensions": [
+		         "ms-python.python"
+	]
+  }
+}
